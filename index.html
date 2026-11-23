@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEI Fácil — Controle Financeiro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>💰 MEI Fácil</h1>
+        <p>Controle Financeiro para o seu pequeno negócio</p>
+      </header>
+
+      <div class="saldo-card">
+        <h2>Saldo Atual</h2>
+        <p class="saldo-valor" id="saldoAtual">R$ 0,00</p>
+        <p class="saldo-status">—</p>
+      </div>
+
+      <div class="botoes-acesso">
+        <a href="lancamentos.html?tipo=entrada" class="btn btn-sucesso"
+          >➕ Nova Entrada</a
+        >
+        <a href="lancamentos.html?tipo=saida" class="btn btn-perigo"
+          >➖ Nova Saída</a
+        >
+      </div>
+
+      <div class="navegacao">
+        <a href="resumo.html" class="nav-card">
+          <span>📊</span>
+          <span>Resumo Mensal</span>
+        </a>
+        <a href="contas.html" class="nav-card">
+          <span>📅</span>
+          <span>Contas</span>
+        </a>
+        <a href="ajuda.html" class="nav-card">
+          <span>❓</span>
+          <span>Ajuda</span>
+        </a>
+      </div>
+
+      <div class="historico">
+        <h3>📋 Últimas Movimentações</h3>
+        <div id="listaMovimentacoes">
+          <p class="vazio">
+            Nenhum lançamento ainda. Comece registrando sua primeira
+            movimentação!
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        <p>Projeto Integrado de Extensão — UNIUBE | 2026</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

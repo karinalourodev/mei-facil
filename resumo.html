@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resumo Mensal — MEI Fácil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html" class="voltar">← Voltar</a>
+        <h1>📊 Resumo Mensal</h1>
+      </header>
+
+      <div class="seletor-mes">
+        <button id="mesAnterior">&lt;</button>
+        <span id="mesAtual">Novembro/2026</span>
+        <button id="proximoMes">&gt;</button>
+      </div>
+
+      <div class="resumo-cards">
+        <div class="card card-entrada">
+          <h3>Total de Entradas</h3>
+          <p class="valor" id="totalEntradas">R$ 0,00</p>
+        </div>
+        <div class="card card-saida">
+          <h3>Total de Saídas</h3>
+          <p class="valor" id="totalSaidas">R$ 0,00</p>
+        </div>
+        <div class="card card-resultado">
+          <h3>Resultado do Mês</h3>
+          <p class="valor" id="resultadoMes">R$ 0,00</p>
+          <p id="statusResultado">—</p>
+        </div>
+      </div>
+
+      <div class="detalhes-mes">
+        <h3>Detalhamento do Mês</h3>
+        <div id="listaResumo">
+          <p class="vazio">Sem lançamentos neste mês.</p>
+        </div>
+      </div>
+
+      <footer>
+        <p>Projeto Integrado de Extensão — UNIUBE | 2026</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

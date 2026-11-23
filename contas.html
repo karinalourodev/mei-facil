@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contas — MEI Fácil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html" class="voltar">← Voltar</a>
+        <h1>📅 Contas a Pagar e Receber</h1>
+      </header>
+
+      <div class="abas">
+        <button class="aba ativa" data-alvo="apagar">🔴 A Pagar</button>
+        <button class="aba" data-alvo="areceber">🟢 A Receber</button>
+      </div>
+
+      <button id="btnAdicionarConta" class="btn btn-principal">
+        + Adicionar Nova Conta
+      </button>
+
+      <div id="formConta" class="form-container oculto">
+        <form>
+          <div class="grupo-form">
+            <label>Descrição</label>
+            <input
+              type="text"
+              id="contaDescricao"
+              placeholder="Ex: Fornecedor A"
+            />
+          </div>
+          <div class="grupo-form">
+            <label>Valor (R$)</label>
+            <input
+              type="number"
+              step="0.01"
+              id="contaValor"
+              placeholder="0,00"
+            />
+          </div>
+          <div class="grupo-form">
+            <label>Data de Vencimento</label>
+            <input type="date" id="contaData" />
+          </div>
+          <div class="botoes-form">
+            <button
+              type="button"
+              id="btnCancelarConta"
+              class="btn btn-secundario"
+            >
+              Cancelar
+            </button>
+            <button type="submit" class="btn btn-sucesso">Salvar</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="listaContas">
+        <p class="vazio">Nenhuma conta cadastrada ainda.</p>
+      </div>
+
+      <footer>
+        <p>Projeto Integrado de Extensão — UNIUBE | 2026</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
