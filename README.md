@@ -37,7 +37,7 @@ O **MEI Fácil** é um sistema web simples e gratuito de gestão financeira dese
 
 ### Opção 1 — Acesso pela web
 
-Acesse: https://karinolourodev.github.io/mei-facil/
+Acesse:[ https://karinolourodev.github.io/mei-facil/](https://karinalourodev.github.io/mei-facil/)
  — não precisa instalar nada, basta abrir no navegador.
 
 ### Opção 2 — Usar localmente
