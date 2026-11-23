@@ -37,7 +37,7 @@ O **MEI Fácil** é um sistema web simples e gratuito de gestão financeira dese
 
 ### Opção 1 — Acesso pela web
 
-Acesse: **[seuusuario.github.io/mei-facil]([(https://github.com/karinalourodev/mei-facil))** — não precisa instalar nada, basta abrir no navegador.
+Acesse: — não precisa instalar nada, basta abrir no navegador.
 
 ### Opção 2 — Usar localmente
 
@@ -89,7 +89,7 @@ Este projeto faz parte do **Projeto Integrado de Extensão** do curso de Sistema
 ## Contato
 
 **Karina Carmencita Louro**  
-E-mail: [seu e-mail]  
+E-mail: [kagpimpressao3d@gmail.com]  
 Telefone: **(34) 99231-5258**
 
 Universidade de Uberaba – UNIUBE  
